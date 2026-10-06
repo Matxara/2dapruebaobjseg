@@ -1,6 +1,4 @@
-# EcoTech – CRUD de empleados (Python + SQLite/MySQL)
-
-Integrantes: _(completar)_ · Líder de proyecto: _(completar)_
+Integrantes: Matias Rabanal
 
 ## Ejecutar en un entorno limpio
 ```powershell
@@ -28,3 +26,11 @@ src/
     └── empleado_dao.py     todo el SQL (insertar, buscar, listar, actualizar, eliminar)
 ```
 Flujo: `Usuario → main.py → Empleado → EmpleadoDAO → conexion.py → SQLite/MySQL`
+
+py -m venv .venv
+
+source .venv/scripts/activate
+
+pip install pymysql python-dotenv
+
+pip freeze > requirements.txt
